@@ -30,7 +30,7 @@ const MeetTheTeam = () => {
           <h2>Maya Sijaric</h2>
           <img alt="Maya" src={samplepics} />
           <p>
-           Hello Im Maya Sijaric and Im a senior at NYU studying stuff. 
+           Hello Im Maya Sijaric and I'm a senior majoring in Computer Science and Politics, with a minor in Molecular and Cell Biology. 
           </p>
           <h2>Roman Haberli</h2>
           <img alt="Roman" src={samplepics} />
