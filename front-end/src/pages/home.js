@@ -43,11 +43,11 @@ const HomePage = ({ props }) => {
       ) {
         setData(
           <div>
-            <a href="./signup" target="_blank">
+            <a href="./signup">
               Sign Up{" "}
             </a>{" "}
             <a>or </a>
-            <a href="./login" target="_blank">
+            <a href="./login">
               Login{" "}
             </a>
             <a> to save your results!</a>
@@ -56,7 +56,7 @@ const HomePage = ({ props }) => {
       } else {
         setData(
           <div>
-            <a href="./logout" target="_blank">
+            <a href="./logout">
               Logout{" "}
             </a>
             <a>!</a>
