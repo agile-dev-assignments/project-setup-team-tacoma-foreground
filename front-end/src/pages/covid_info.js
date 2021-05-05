@@ -139,36 +139,36 @@ const CovidInfo = ({ props }) => {
                 </div>
                 <div className = "space_between">
                     <span class="field-tip">
-                    <h3>Overall Country Score</h3>
-                    <span class="tip-content">Put help text in here!</span>
+                    <h3>ⓘ Overall Country Score</h3>
+                    <span class="tip-content">Relative Saftey Score Out of 100</span>
                     </span>
                     <button className="data"><b>{score} cases</b></button>
                 </div>
                 <div className = "space_between">
                     <span class="field-tip">
                     <h3>ⓘ Total number of cases:</h3>
-                    <span class="tip-content">Put help text in here!</span>
+                    <span class="tip-content">Absolute Number of Cases!</span>
                     </span>
                     <button className="data"><b>{cases} cases</b></button>
                 </div>
                 <div className = "space_between">
                     <span class="field-tip">
                     <h3>ⓘ Current number of new cases:</h3>
-                    <span class="tip-content">Put help text in here!</span>
+                    <span class="tip-content">New Daily Cases Reported</span>
                     </span>
                     <button className="data"><b>{current_cases} cases</b></button>
                 </div>
                 <div className = "space_between">
                     <span class="field-tip">
-                    <h3>ⓘ Population vaccinated per hundred:</h3>
-                    <span class="tip-content">Number of people vaccinated per 100</span>
+                    <h3>ⓘ Total Vaccinations per hundred:</h3>
+                    <span class="tip-content">Total vaccinated per 100</span>
                     </span>
-                    <button className="data"><b>{vac} %</b></button>
+                    <button className="data"><b>{vac}</b></button>
                 </div>
                 <div className = "space_between">
                     <span class="field-tip">
-                    <h3>Vacination Score:</h3>
-                    <span class="tip-content"></span>
+                    <h3>ⓘ Vaccination Score:</h3>
+                    <span class="tip-content"> Relative Vaccination Score (highest = 100)</span>
                     </span>
                     <button className="data"><b>{vaccination}</b></button>
                 </div>

@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+// eslint-disable-next-line no-unused-vars
 const path = require('path');
 const chai = require('chai');
 const chaiHttp = require("chai-http");
@@ -7,6 +9,7 @@ const app = require('../../app.js');////
 // const request = chai.request; 
 const { expect } = chai;
 chai.use(chaiHttp);
+// eslint-disable-next-line no-unused-vars
 const host = "http://localhost:5000";
 
 
