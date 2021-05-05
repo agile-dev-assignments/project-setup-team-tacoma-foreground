@@ -166,12 +166,11 @@ Before starting the back-end server run the following commands in the ./back-end
  - npm install mocha chai nodemon eslint-plugin-react --save<br>
 
 To start the server: <br>
-- nodemon server <br>
+- node server <br>
 
 To run the tests: <br>
-- npm run test <br> 
-
-Testing instructions will be updated later.  
+- cd back-end <br>  
+- npm test <br>  
 
 ## Additional resources
 
