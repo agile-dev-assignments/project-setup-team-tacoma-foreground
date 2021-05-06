@@ -3,6 +3,7 @@ import samplepics from '../img/SampleProfile.png';
 import rajPic from '../img/raj_pic.jpeg';
 import adamPic from '../img/adam1.PNG'
 import alifaPic from '../img/alifa.png'
+import mayaPic from '../img/maya.png'
 
 const MeetTheTeam = () => {
 
@@ -28,7 +29,7 @@ const MeetTheTeam = () => {
            Hello, Im a junior at NYU majoring in Computer Science and minoring in Business Studies.  
           </p>
           <h2>Maya Sijaric</h2>
-          <img alt="Maya" src={samplepics} />
+          <img alt="Maya" src={mayaPic} />
           <p>
            Hello Im Maya Sijaric and I'm a senior majoring in Computer Science and Politics, with a minor in Molecular and Cell Biology. 
           </p>
