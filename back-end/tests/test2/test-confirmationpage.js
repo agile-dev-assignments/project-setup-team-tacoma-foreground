@@ -29,13 +29,13 @@ describe('GET /confirmation', function ()  {
     });
 });
 
-/*
+
 describe('GET /confirmation', function ()  {
     it('check the confirmation page has all user data', function(done) {
    
         console.log('running the test')
         request(app)
-        .post('/').send({citizenship: "American", location: "New York", airport:"JFK"})
+        .post('/').send({continent: "Asia"})
         .end((err, res) => {
             
         expect(res).to.have.status(200);
@@ -46,10 +46,10 @@ describe('GET /confirmation', function ()  {
         .get('/confirmation')
         .end((err, res) => {
         expect(res).to.have.status(200);
-        expect(res.body.message).to.have.all.keys('citizenship', 'location','airport','entered');
+        expect(res.body.message).to.have.keys('continent','entered');
         done();
         });
+    
     });
     
   });
-*/

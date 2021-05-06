@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha 'tests/test2/**/*.js' --exit ",
-    "coverage": "nyc npm run test"
+    "coverage": "nyc npm run test",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -41,5 +42,8 @@
     "mocha": "^8.3.2",
     "nodemon": "^2.0.7",
     "nyc": "^15.1.0"
+  },
+  "directories": {
+    "test": "tests"
   }
 }

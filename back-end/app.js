@@ -388,7 +388,7 @@ app.get("/favorites", (req, res) => {
 
   })
 }else{
-  res.send({error:" PLEASE LOG IN OR CREATE AN ACCOUNT TO SAVE OR VIEW LOCATIONS"});
+  res.send({status:"success", error:" PLEASE LOG IN OR CREATE AN ACCOUNT TO SAVE OR VIEW LOCATIONS"});
 }
  
 });
