@@ -4,7 +4,7 @@ import rajPic from '../img/raj_pic.jpeg';
 import adamPic from '../img/adam1.PNG'
 import alifaPic from '../img/alifa.png'
 import mayaPic from '../img/maya.png'
-import romanPic from '../img/roman.png'
+import romanPic from '../img/roman.jpg'
 
 const MeetTheTeam = () => {
 
