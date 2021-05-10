@@ -4,6 +4,7 @@ import rajPic from '../img/raj_pic.jpeg';
 import adamPic from '../img/adam1.PNG'
 import alifaPic from '../img/alifa.png'
 import mayaPic from '../img/maya.png'
+import romanPic from '../img/roman.png'
 
 const MeetTheTeam = () => {
 
@@ -36,7 +37,7 @@ const MeetTheTeam = () => {
           <h2>Roman Haberli</h2>
           <img alt="Roman" src={samplepics} />
           <p>
-           Hello, I'm Roman Haberli and I'm a senior at NYU studying stuff. 
+           Hello, I am Roman Haberli and I am a senior at NYU studying Computer Science and graduating this spring semester. 
           </p>
       </section>
   </div>
